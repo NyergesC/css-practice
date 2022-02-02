@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+  /*css reset is over*/
+
+  body{
+    background-color: gray;
+  }
+
+  section {
+    min-height: 100vh;
+  }  
+
+section.bg-image {
+    height: 100vh;
+    overflow: hidden; 
+  }
+
+section.bg-image img {
+  position: absolute;
+  display: block;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  }
+
+  section.bg-image button {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 50%;
+    width: 200px;
+    height: 60px;
+    margin: 40px 0;
+    transform: translateX(-50%);
+    background-color: #09CED9;
+    border-radius: 30px;
+   
+  }
+
+  section.bg-image h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+    color: blanchedalmond;
+    margin: 40px;
+    text-shadow: 2px 2px black;
+  }
+
+  #about {
+    display: flex;
+  }
+
+  #about p {
+    width: 100%;
+    max-width: 400px;
+    padding: 80px 20px;
+    margin: 0 auto;
+  }
+  
+  #about article {
+    width: 100%;
+    max-width: 400px;
+    padding: 80px 20px;
+    margin: 0 auto;
+  }
+
+  #about {
+    min-height: unset;
+    background-color: indianred;
+  }
+
+  #about h2 {
+    padding-bottom: 20px;
+  }
+
+#services ul {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  list-style: none;
+  background-color: grey (90, 90, 90, 0.7);  
+}
+
+#services ul li {
+  padding-bottom: 10px;
+}
+
+  #services ul li h2,
+  #services ul li p {
+    text-align: center;
+  }
+
+  #services {
+    background-image: url("img/chocolate.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 80px 0;
+  }
+
+  #contact {
+    background-color: hotpink;
+  }
+
+  #contact form{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+  #contact input,
+  #contact label {
+    display: block;
+    width: 100%;
+
+  }
+
+  #contact label{
+    font-size: 12px;
+    padding-bottom: 10px;
+    
+  }
+
+  #contact input {
+    height: 60px;
+    padding: 0 10px;
+    font-size: 12px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+
+  #contact button {  
+    width: 200px;
+    height: 60px;
+    background-color: #09CED9;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2;
+
+  }
