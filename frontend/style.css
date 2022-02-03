@@ -90,7 +90,7 @@ section.bg-image img {
   #about {
     display: flex;
     min-height: unset;
-    background-color: #d98cb1;
+    background-color:#bf80ff;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -166,7 +166,7 @@ section.bg-image img {
   }
 
   #contact label{
-    font-size: 12px;
+    font-size: 14px;
     padding-bottom: 10px;
     
   }
@@ -180,8 +180,8 @@ section.bg-image img {
   }
 
   #contact button {  
-    width: 200px;
-    height: 60px;
+    width: 150px;
+    height: 40px;
     background-color: #a3297a;
     border-radius: 30px;
     font-size: 16px;
